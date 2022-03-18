@@ -17,7 +17,7 @@ npm install nodeping --save
 ## Usage and Initialization
 
 ```js
-const NodePing = require('node-ping');
+const NodePing = require('nodeping');
 const nodeping = new NodePing('O3WIL82W-8I20-39QQ-E9WW-I3WWL9W0WKW9');
 ```
 
