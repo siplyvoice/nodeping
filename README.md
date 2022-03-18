@@ -12,7 +12,6 @@ https://nodeping.com/
 
 ```
 npm install nodeping --save
-
 ```
 
 ## Usage and Initialization
