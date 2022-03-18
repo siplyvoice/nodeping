@@ -74,17 +74,13 @@ const checks = await nodeping.accounts('FE270953JKN111XMC').checks();
 Enable Notifications
 
 ```js
-const checks = await nodeping
-  .accounts('FE270953JKN111XMC')
-  .enableNotifcations();
+const checks = await nodeping.accounts('FE270953JKN111XMC').enableNotifcations();
 ```
 
 Disable Notifications
 
 ```js
-const checks = await nodeping
-  .accounts('FE270953JKN111XMC')
-  .disableNotifcations();
+const checks = await nodeping.accounts('FE270953JKN111XMC').disableNotifcations();
 ```
 
 ### Checks
@@ -116,9 +112,7 @@ await nodeping.checks('FE270953JKN111XMC').get();
 Get check from customer account
 
 ```js
-const check = await nodeping
-  .checks('FE270953JKN111XMC')
-  .get('X327095DJKNISOXMB');
+const check = await nodeping.checks('FE270953JKN111XMC').get('X327095DJKNISOXMB');
 ```
 
 Get check from parent account
